@@ -9,7 +9,7 @@ public interface TbContentCategoryMapper {
     int countByExample(TbContentCategoryExample example);
     //-----代码提交
     int deleteByExample(TbContentCategoryExample example);
-    //分支代码
+    //分支代码   rebase合并测试
     int deleteByPrimaryKey(Long id);
 
     int insert(TbContentCategory record);
